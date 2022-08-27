@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="table">
+        <h1 class="heading">Payouts</h1>
+        <table>
+          <thead>
+            <th>payee</th>
+            <th>amount</th>
+            <th>date</th>
+            <th>status</th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                john smith <br />
+                shoota inc
+              </td>
+              <td>₹ 999</td>
+              <td>jan 13,2022</td>
+              <td><button class="processing">processing</button></td>
+            </tr>
+            <tr>
+              <td>
+                willem smith <br />
+                spider inc
+              </td>
+              <td>₹ 9999</td>
+              <td>sep 15,2022</td>
+              <td><button class="success">success</button></td>
+            </tr>
+            <tr>
+              <td>
+                chuck norris <br />
+                roundhouse inc
+              </td>
+              <td>₹ 999</td>
+              <td>dec 15,2022</td>
+              <td><button class="success">success</button></td>
+            </tr>
+            <tr>
+              <td>
+                nick cage <br />
+                cogent inc
+              </td>
+              <td>₹ 9999</td>
+              <td>feb 15,2022</td>
+              <td><button class="reverted">reverted</button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td>Total Paid</td>
+            <td>₹ 21,996</td>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
